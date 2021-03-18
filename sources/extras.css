@@ -2,7 +2,7 @@
 	height: 80vh;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;	/*Indico el area del contenedor en la que se mostrara la imagen*/
-	background-image: url("imgs/Javascript.jpg");
+	background-image: url("imgs/Javascript.png");
 }
 
 .middle {
