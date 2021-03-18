@@ -1,11 +1,10 @@
 @font-face {
 	font-family: "Bio";
-	src:url("BioRhyme.ttf");
+	src:url("sources/BioRhyme.ttf");
 }
 
 body {
 	font-family: "Bio";
-	
 }
 
 #header {
