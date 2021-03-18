@@ -1,0 +1,11 @@
+[
+	{
+		"titulo":"File Manager",
+		"url":"http://nemusfiler.atspace.cc/app.php",
+		"imagen":"sources/imgs/projectsImgs/filer.png",
+		"frameworks":"Bootstrap, Jquery, Sweetaler2",
+		"lenguajes":"Php, Javascript, Mysql",
+		"lenguaje":"Php",
+		"observacion":"Public File Manager website. On this website you could upload and store a few kind of files(supports audio,video,images,text formats), your free account sign up just takes you 2 minutes."
+	}
+]
