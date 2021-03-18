@@ -76,6 +76,8 @@ function projects(){
 			contentType: "application/json; charset=utf-8",
 			dataType: "json",
 			success: function(data) {
+				const projects = document.getElementById("projects");
+				
 				data.forEach( (objeto) => {
 					let container = document.createElement("div");
 					let _class = objeto.lenguaje; 
