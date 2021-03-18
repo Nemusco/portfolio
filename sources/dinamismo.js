@@ -67,10 +67,10 @@ function projects(){
 	
 	ajax.request("POST","sources/projects.json","text");*/
 	jQuery.support.cors = true;
-	
+
 	$(document).ready(function() {
 		$.ajax({
-			type: "POST",
+			type: "GET",
 			url: "sources/projects.json",
 			data: "{}",
 			contentType: "application/json; charset=utf-8",
