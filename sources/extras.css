@@ -1,3 +1,13 @@
+@font-face {
+	font-family: "Bio";
+	src:url("BioRhyme.ttf");
+}
+
+body {
+	font-family: "Bio";
+	
+}
+
 #header {
 	height: 80vh;
 	background-repeat: no-repeat;
