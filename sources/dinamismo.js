@@ -66,7 +66,8 @@ function projects(){
 	}
 	
 	ajax.request("POST","sources/projects.json","text");*/
-
+	jQuery.support.cors = true;
+	
 	$(document).ready(function() {
 		$.ajax({
 			type: "POST",
