@@ -24,7 +24,7 @@ function headerBackground(){
 
 //Carga de proyectos
 function projects(){
-	const ajax = new Ajax();
+	/*const ajax = new Ajax();
 
 	ajax.ready = (status,statusText,response) => {
 		const data = JSON.parse(response);
@@ -65,7 +65,51 @@ function projects(){
 		});
 	}
 	
-	ajax.request("POST","sources/projects.json","text");
+	ajax.request("POST","sources/projects.json","text");*/
+
+	$(document).ready(function() {
+		$.ajax({
+			type: "POST",
+			url: "sources/projects.json",
+			data: "{}",
+			contentType: "application/json; charset=utf-8",
+			dataType: "json",
+			success: function(data) {
+				data.forEach( (objeto) => {
+					let container = document.createElement("div");
+					let _class = objeto.lenguaje; 
+					container.setAttribute("class",`col mb-3 mb-md-0 d-block ${_class}`);
+
+					let containerFluid = document.createElement("div");
+					containerFluid.setAttribute("class","oxford p-2 border rounded shadow-lg");
+
+					let img = document.createElement("img");
+					img.setAttribute("class","img-fluid");
+					img.setAttribute("src",objeto.imagen);
+
+					let info = document.createElement("div");
+					info.setAttribute("class","mt-2 p-md-2");
+
+					let content = `
+					<h4>${objeto.titulo}</h4>
+					<span class="h5">Frameworks: </span>
+					<strong> ${objeto.frameworks} </strong><br>
+					<span class="h5">Languages:</span>
+					<strong> ${objeto.lenguajes}</strong><br>
+					<span class="h5">Link:</span> 
+					<a href="${objeto.url}" class="text-decoration-none" target="_blank">Click here</a><br>
+					<span class="monospace">${objeto.observacion}</span>
+					`;
+
+					info.innerHTML = content;
+					containerFluid.appendChild(img);
+					containerFluid.appendChild(info);
+					container.appendChild(containerFluid);
+					projects.appendChild(container);
+				});
+			}
+		});
+	});
 }
 ////
 
