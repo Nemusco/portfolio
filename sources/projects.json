@@ -7,5 +7,14 @@
 		"lenguajes":"Php, Javascript, Mysql",
 		"lenguaje":"Php",
 		"observacion":"Public File Manager website. On this website you could upload and store a few kind of files(supports audio,video,images,text formats), your free account sign up just takes you 2 minutes."
+	},
+	{
+		"titulo":"Javascript up-to-date",
+		"url":"https://github.com/Nemusco/Curso-Javascript-Moderno.git",
+		"imagen":"sources/imgs/projectsImgs/JavascriptModerno.jpg",
+		"frameworks":"",
+		"lenguajes":"Javascript",
+		"lenguaje":"Javascript",
+		"observacion": "Github repository with fifteen Javascript practice project, each project has been host on Netlify deployment platform"
 	}
 ]
