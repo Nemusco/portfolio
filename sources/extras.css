@@ -42,4 +42,9 @@ main {
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
+
+	main {
+		margin-bottom: 200px !important;
+		margin-top: 150px !important;
+	}
 }
