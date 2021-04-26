@@ -29,7 +29,7 @@
 	{
 		"titulo":"Wiki and Morty",
 		"url":"https://wiki-and-morty.herokuapp.com/",
-		"imagen":"sources/imgs/projectsImgs/wikiAndMorty.png",
+		"imagen":"sources/imgs/projectsImgs/WikiAndMorty.png",
 		"frameworks":"Slim framework, Bootstrap",
 		"lenguajes":"Php, Javascript",
 		"lenguaje":"Php",
