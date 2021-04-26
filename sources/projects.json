@@ -25,5 +25,14 @@
 		"lenguajes":"Php,PostgreSQL",
 		"lenguaje":"Php",
 		"observacion":"Public API created with Slim Framework. Gives an updated list of venezuelan banks info(contact number, website, email,etc.). Sometimes, it's difficult to do a mobile payment in Venezuela because of we don't have the bank code for it, on this API you could find all codes of existing banks"
+	},
+	{
+		"titulo":"Wiki and Morty",
+		"url":"https://wiki-and-morty.herokuapp.com/",
+		"imagen":"sources/imgs/projectsImgs/VenezuelaBanks.png",
+		"frameworks":"Slim framework, Bootstrap",
+		"lenguajes":"Php",
+		"lenguaje":"Php",
+		"observacion":"Fetching Rick And Morty API and showing on simple lists of characters, episodes and locations related with TV show"
 	}
 ]
