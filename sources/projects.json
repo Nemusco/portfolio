@@ -31,7 +31,7 @@
 		"url":"https://wiki-and-morty.herokuapp.com/",
 		"imagen":"sources/imgs/projectsImgs/VenezuelaBanks.png",
 		"frameworks":"Slim framework, Bootstrap",
-		"lenguajes":"Php",
+		"lenguajes":"Php, Javascript",
 		"lenguaje":"Php",
 		"observacion":"Fetching Rick And Morty API and showing on simple lists of characters, episodes and locations related with TV show"
 	}
